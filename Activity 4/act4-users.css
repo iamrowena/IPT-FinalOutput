@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(people.jpg);
+    background-size: cover;
+}
+
+.menu {
+    margin: 30px 0px 20px;
+    font-size: 25px;
+    color:#3a32a8 ;
+    background-color: #76b0db;
+    border-style: solid;
+    border-width: 5px;
+    text-align: center;
+}
+
+
+h3 {
+    margin-left: 60px;
+    font-size: 15px;
+    background-color: aquamarine;
+}
+
+div.favorite{
+    padding: 15px;
+    border-style: hidden;
+    border-width: 1px;
+}
+
+div.user{
+    padding: 15px;
+    border-style: hidden;
+    border-width: 1px;
+}
+
+button {
+    float: left;
+    display: inline-flex;
+    background-size: auto;
+    padding: 10px ;
+    color: #fc7b03;
+    background-color:#f5fa5a;
+    border-style: hidden;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+button:hover {
+background-color: #bff705;
+}
+
+button:active {
+    background-color: #8ab305;
+    }
+
+.btn-1 {
+border: none;
+color: white;
+background-color: #fc7b03;
+border-radius: 1px;
+}
+
+div.main {
+    text-align: center;
+    margin: 10px 5px;
+    padding: 20px;
+}
+
+h2 {
+    background-color: #eab676;
+    font-size: 30px;
+    font-family: 'Brush Script MT', cursive;
+    margin: 10px 0px;
+}
+
+div.footer{
+    padding: 20px;
+    border-style: solid;
+    border-width: 1px;
+}
+table {
+    margin: auto;
+}
+
+th {
+    background-color: beige;
+}
+ 
+th, td {
+    width: 20px;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    margin-right: 10px;
+    float: right;
+}
